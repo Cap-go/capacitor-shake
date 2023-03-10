@@ -25,6 +25,11 @@
   "keywords": [
     "capacitor",
     "plugin",
+    "shake",
+    "gesture",
+    "accelerometer",
+    "acceleration",
+    "detection",
     "native"
   ],
   "scripts": {

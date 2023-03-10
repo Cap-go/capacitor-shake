@@ -5,18 +5,13 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
+import com.squareup.seismic.ShakeDetector;
 
 @CapacitorPlugin(name = "CapacitorShake")
-public class CapacitorShakePlugin extends Plugin {
+public class CapacitorShakePlugin extends Plugin implements ShakeDetector.Listener {
 
-    private CapacitorShake implementation = new CapacitorShake();
-
-    @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
-
+    @Override public void hearShake() {
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
-        call.resolve(ret);
+        notifyListeners("shake", ret);
     }
 }
