@@ -1,9 +1,8 @@
-import type {PluginListenerHandle} from "@capacitor/core";
+import type { PluginListenerHandle } from "@capacitor/core";
 
 export interface CapacitorShakePlugin {
   addListener(
-    eventName: 'shake',
-    listenerFunc: ()   => void
+    eventName: "shake",
+    listenerFunc: () => void
   ): Promise<PluginListenerHandle> & PluginListenerHandle;
-
 }

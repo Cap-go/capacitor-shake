@@ -1,10 +1,7 @@
-import { WebPlugin } from '@capacitor/core';
+import { WebPlugin } from "@capacitor/core";
 
-import type { CapacitorShakePlugin } from './definitions';
+import type { CapacitorShakePlugin } from "./definitions";
 
 export class CapacitorShakeWeb
   extends WebPlugin
-  implements CapacitorShakePlugin
-{
- 
-}
+  implements CapacitorShakePlugin {}
