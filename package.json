@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-shake",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Detect shake gesture in device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
