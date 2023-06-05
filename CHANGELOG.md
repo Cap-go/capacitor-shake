@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.1](https://github.com/Cap-go/capacitor-shake.git/compare/5.0.0...5.0.1) (2023-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.android.tools.build:gradle to v8.0.2 ([7a8b41c](https://github.com/Cap-go/capacitor-shake.git/commit/7a8b41c73a252e54fc727bcf7e5908c73e940d4d))
+
 ## 5.0.0 (2023-06-01)
 
 
