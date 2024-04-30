@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-shake",
-  "version": "5.0.29",
+  "version": "5.0.0",
   "description": "Detect shake gesture in device",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -39,7 +39,7 @@
     "verify:web": "npm run build",
     "lint": "npm run eslint && npm run prettier -- --check && npm run swiftlint -- lint",
     "fmt": "npm run eslint -- --fix && npm run prettier -- --write && npm run swiftlint -- --autocorrect --format",
-    "eslint": "eslint . --ext ts",
+    "eslint": "eslint .",
     "prettier": "prettier --config .prettierrc.js \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api CapacitorShakePlugin --output-readme README.md --output-json dist/docs.json",
@@ -49,31 +49,28 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.3",
-    "@capacitor/core": "^5.0.3",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
     "@capacitor/docgen": "^0.2.1",
-    "@capacitor/ios": "^5.0.3",
+    "@capacitor/ios": "^6.0.0",
     "@ionic/eslint-config": "^0.3.0",
-    "@ionic/prettier-config": "^3.0.0",
+    "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.59.7",
-    "@typescript-eslint/parser": "^5.59.7",
-    "eslint": "^8.41.0",
-    "prettier": "~2.8.8",
-    "prettier-plugin-java": "~1.6.0",
-    "rimraf": "^5.0.1",
-    "rollup": "^3.23.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^9.1.1",
+    "prettier": "~3.2.5",
+    "prettier-plugin-java": "~2.6.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.17.1",
     "swiftlint": "^1.0.2",
-    "typescript": "~5.0.4"
+    "typescript": "~5.4.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "^6.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
-  "eslintConfig": {
-    "extends": "@ionic/eslint-config/recommended"
-  },
   "capacitor": {
     "ios": {
       "src": "ios"
