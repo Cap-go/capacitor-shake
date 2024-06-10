@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.11](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.10...6.0.11) (2024-06-10)
+
+
+### Bug Fixes
+
+* **deps:** update capacitor monorepo to v5.7.5 ([1d4f636](https://github.com/Cap-go/capacitor-shake.git/commit/1d4f6367753f548f6a60cf023063e45460549c5d))
+
 ### [6.0.10](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.9...6.0.10) (2024-06-10)
 
 ### [6.0.9](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.8...6.0.9) (2024-06-10)
