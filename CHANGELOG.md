@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.39](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.38...6.0.39) (2024-08-19)
+
 ### [6.0.38](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.37...6.0.38) (2024-08-12)
 
 
