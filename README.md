@@ -22,7 +22,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`addListener('shake', ...)`](#addlistenershake)
+* [`addListener('shake', ...)`](#addlistenershake-)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -33,7 +33,7 @@ npx cap sync
 ### addListener('shake', ...)
 
 ```typescript
-addListener(eventName: "shake", listenerFunc: () => void) => any
+addListener(eventName: "shake", listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
 | Param              | Type                       |
@@ -41,7 +41,7 @@ addListener(eventName: "shake", listenerFunc: () => void) => any
 | **`eventName`**    | <code>'shake'</code>       |
 | **`listenerFunc`** | <code>() =&gt; void</code> |
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
 --------------------
 
@@ -51,8 +51,8 @@ addListener(eventName: "shake", listenerFunc: () => void) => any
 
 #### PluginListenerHandle
 
-| Prop         | Type                      |
-| ------------ | ------------------------- |
-| **`remove`** | <code>() =&gt; any</code> |
+| Prop         | Type                                      |
+| ------------ | ----------------------------------------- |
+| **`remove`** | <code>() =&gt; Promise&lt;void&gt;</code> |
 
 </docgen-api>

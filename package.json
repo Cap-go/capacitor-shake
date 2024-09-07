@@ -78,5 +78,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "@types/node": "^22.5.4"
   }
 }
