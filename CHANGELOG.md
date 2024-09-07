@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.46...6.1.0) (2024-09-07)
+
+
+### Features
+
+* **android:** implement android ([db63a57](https://github.com/Cap-go/capacitor-shake.git/commit/db63a57fd59ff446d4aa2d84cc2066a03fd38f06))
+
+
+### Bug Fixes
+
+* pnpm lock ([820c175](https://github.com/Cap-go/capacitor-shake.git/commit/820c1756e570598e05e50321d27be2897391b8d5))
+
 ### [6.0.46](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.45...6.0.46) (2024-09-05)
 
 ### [6.0.45](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.44...6.0.45) (2024-09-02)
