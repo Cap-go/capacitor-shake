@@ -3,7 +3,6 @@ package ee.forgr.capacitor.shake;
 import android.content.Context;
 import android.hardware.SensorManager;
 import android.util.Log;
-
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.annotation.CapacitorPlugin;
@@ -20,12 +19,13 @@ public class CapacitorShakePlugin
 
     SensorManager sensorManager = null;
     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
-      sensorManager = (SensorManager) this.bridge.getActivity().getSystemService(Context.SENSOR_SERVICE);
+      sensorManager = (SensorManager) this.bridge.getActivity()
+        .getSystemService(Context.SENSOR_SERVICE);
 
       if (sensorManager == null) {
         Log.e(
-        "CapacitorShakePlugin",
-        "This device couldn't find SENSOR_SERVICE. Perhaps your device doesn't support it"
+          "CapacitorShakePlugin",
+          "This device couldn't find SENSOR_SERVICE. Perhaps your device doesn't support it"
         );
         return;
       }
@@ -37,22 +37,13 @@ public class CapacitorShakePlugin
       return;
     }
 
-
     try {
       ShakeDetector sd = new ShakeDetector(this);
       sd.start(sensorManager, SensorManager.SENSOR_DELAY_GAME);
-      Log.i(
-      "CapacitorShakePlugin",
-      "ShakeDetector started"
-      );
+      Log.i("CapacitorShakePlugin", "ShakeDetector started");
     } catch (Exception e) {
-      Log.e(
-      "CapacitorShakePlugin",
-      "Failed to start the shakeDetector",
-        e
-      );
+      Log.e("CapacitorShakePlugin", "Failed to start the shakeDetector", e);
     }
-
   }
 
   @Override
