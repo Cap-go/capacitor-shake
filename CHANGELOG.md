@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.1](https://github.com/Cap-go/capacitor-shake.git/compare/7.1.0...7.1.1) (2025-02-08)
+
+
+### Bug Fixes
+
+* JS name ([2f3c82a](https://github.com/Cap-go/capacitor-shake.git/commit/2f3c82aaa136dd2ae9e7a2310a4a009216264d0f))
+
 ## [7.1.0](https://github.com/Cap-go/capacitor-shake.git/compare/6.1.0...7.1.0) (2025-02-08)
 
 
