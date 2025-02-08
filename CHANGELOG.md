@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/Cap-go/capacitor-shake.git/compare/6.1.0...7.1.0) (2025-02-08)
+
+
+### Features
+
+* migrate to capacitor v7 ([4534dee](https://github.com/Cap-go/capacitor-shake.git/commit/4534deeb80ec8f2d0cbcb4e00bbf4ff4c921e59f))
+
+
+### Bug Fixes
+
+* author ([6c338ae](https://github.com/Cap-go/capacitor-shake.git/commit/6c338ae0654c54f86348fef7a3da004e0f7e5717))
+* CI/CD ([937599c](https://github.com/Cap-go/capacitor-shake.git/commit/937599c67cb6e6d263ce4f7d6edbabf49683c8d6))
+
 ## [6.1.0](https://github.com/Cap-go/capacitor-shake.git/compare/6.0.46...6.1.0) (2024-09-07)
 
 
