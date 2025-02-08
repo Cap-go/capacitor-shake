@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "CapgoCapacitorShake.podspec"
   ],
-  "author": "Martin Donadieu <martindonadieu@gmail.com>",
+  "author": "Cap-go <contact@capgo.app>",
   "license": "MIT",
   "repository": {
     "type": "git",
