@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.4](https://github.com/Cap-go/capacitor-shake/compare/7.1.3...7.1.4) (2025-02-09)
+
+
+### Bug Fixes
+
+* missing class ([6983e55](https://github.com/Cap-go/capacitor-shake/commit/6983e550eff29be249bfeef9baf8af623bf2708a))
+
 ### [7.1.3](https://github.com/Cap-go/capacitor-shake/compare/7.1.2...7.1.3) (2025-02-08)
 
 
