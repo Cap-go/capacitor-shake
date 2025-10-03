@@ -17,22 +17,15 @@ public class CapacitorShakePlugin
   public void load() {
     super.load();
 
-    SensorManager sensorManager = null;
-    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
-      sensorManager = (SensorManager) this.bridge.getActivity()
-        .getSystemService(Context.SENSOR_SERVICE);
+    SensorManager sensorManager =
+      (SensorManager) this.bridge.getActivity().getSystemService(
+        Context.SENSOR_SERVICE
+      );
 
-      if (sensorManager == null) {
-        Log.e(
-          "CapacitorShakePlugin",
-          "This device couldn't find SENSOR_SERVICE. Perhaps your device doesn't support it"
-        );
-        return;
-      }
-    } else {
+    if (sensorManager == null) {
       Log.e(
         "CapacitorShakePlugin",
-        "This device doesn't support the getSystemService. Minimal android version: 23"
+        "This device couldn't find SENSOR_SERVICE. Perhaps your device doesn't support it"
       );
       return;
     }
