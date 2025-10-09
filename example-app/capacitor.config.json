@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.capgo.capacitor.shake",
+  "appName": "@capgo/capacitor-shake example",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
