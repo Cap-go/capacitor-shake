@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.1.21](https://github.com/Cap-go/capacitor-shake/compare/7.1.20...7.1.21) (2025-10-09)
+
+
+### Bug Fixes
+
+* switch to ios new arch ([5adc4b5](https://github.com/Cap-go/capacitor-shake/commit/5adc4b5b7389793da45ca433e550d921ca98520c))
+
 ## [7.1.20](https://github.com/Cap-go/capacitor-shake/compare/7.1.19...7.1.20) (2025-10-08)
 
 ## [7.1.19](https://github.com/Cap-go/capacitor-shake/compare/7.1.18...7.1.19) (2025-10-08)
