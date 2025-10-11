@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.plugin",
-  "appName": "example",
+  "appId": "app.capgo.shake",
+  "appName": "Shake Example",
   "bundledWebRuntime": false,
   "webDir": "dist",
   "plugins": {
