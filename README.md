@@ -33,7 +33,7 @@ npx cap sync
 ### addListener('shake', ...)
 
 ```typescript
-addListener(eventName: "shake", listenerFunc: () => void) => Promise<PluginListenerHandle>
+addListener(eventName: 'shake', listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
 | Param              | Type                       |
