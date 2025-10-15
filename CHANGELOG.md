@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.1.25](https://github.com/Cap-go/capacitor-shake/compare/7.1.24...7.1.25) (2025-10-15)
+
+
+### Bug Fixes
+
+* lint ([b0551bb](https://github.com/Cap-go/capacitor-shake/commit/b0551bbf4f2c80f7cc6e793ec855b4acca0b72c3))
+* lint config ([b8b1c1a](https://github.com/Cap-go/capacitor-shake/commit/b8b1c1a3c6c901918772826d10b0d5698c64b993))
+
 ## [7.1.24](https://github.com/Cap-go/capacitor-shake/compare/7.1.23...7.1.24) (2025-10-14)
 
 ## [7.1.23](https://github.com/Cap-go/capacitor-shake/compare/7.1.22...7.1.23) (2025-10-11)
