@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.0](https://github.com/Cap-go/capacitor-shake/compare/7.1.29...7.2.0) (2025-10-23)
+
+
+### Features
+
+* add getPluginVersion method to CapacitorShakePlugin and its web implementation ([0eec19b](https://github.com/Cap-go/capacitor-shake/commit/0eec19b214e3095f0e0c68d7d9da2a6771352928))
+
 ## [7.1.29](https://github.com/Cap-go/capacitor-shake/compare/7.1.28...7.1.29) (2025-10-20)
 
 ## [7.1.28](https://github.com/Cap-go/capacitor-shake/compare/7.1.27...7.1.28) (2025-10-20)
