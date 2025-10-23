@@ -2,4 +2,8 @@ import { WebPlugin } from '@capacitor/core';
 
 import type { CapacitorShakePlugin } from './definitions';
 
-export class CapacitorShakeWeb extends WebPlugin implements CapacitorShakePlugin {}
+export class CapacitorShakeWeb extends WebPlugin implements CapacitorShakePlugin {
+  async getPluginVersion(): Promise<{ version: string }> {
+    return { version: 'web' };
+  }
+}
