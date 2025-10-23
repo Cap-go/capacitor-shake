@@ -1,6 +1,12 @@
 import type { PluginListenerHandle } from '@capacitor/core';
 
 export interface CapacitorShakePlugin {
+  /**
+   * Listen for shake event
+   *
+   * @param eventName The shake change event name.
+   * @param listenerFunc Callback invoked when phone is shaked
+   */
   addListener(eventName: 'shake', listenerFunc: () => void): Promise<PluginListenerHandle>;
 
   /**
