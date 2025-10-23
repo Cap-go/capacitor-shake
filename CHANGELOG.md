@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.1](https://github.com/Cap-go/capacitor-shake/compare/7.2.0...7.2.1) (2025-10-23)
+
+
+### Bug Fixes
+
+* remove footer in discord ([c89cc1c](https://github.com/Cap-go/capacitor-shake/commit/c89cc1ccef14e3766e06af5f688529af19054332))
+* update Discord release notification username to include repository name ([cf93e16](https://github.com/Cap-go/capacitor-shake/commit/cf93e16db117645fa96d312d475f01b4a547c7d2))
+
 ## [7.2.0](https://github.com/Cap-go/capacitor-shake/compare/7.1.29...7.2.0) (2025-10-23)
 
 
