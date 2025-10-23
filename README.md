@@ -31,18 +31,28 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
+Capacitor Shake Plugin interface for detecting shake gestures on mobile devices.
+This plugin allows you to listen for shake events and get plugin version information.
+
 ### addListener('shake', ...)
 
 ```typescript
 addListener(eventName: 'shake', listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
-| Param              | Type                       |
-| ------------------ | -------------------------- |
-| **`eventName`**    | <code>'shake'</code>       |
-| **`listenerFunc`** | <code>() =&gt; void</code> |
+Listen for shake event on the device.
+
+Registers a listener that will be called whenever a shake gesture is detected.
+The shake detection uses the device's accelerometer to identify shake patterns.
+
+| Param              | Type                       | Description                                         |
+| ------------------ | -------------------------- | --------------------------------------------------- |
+| **`eventName`**    | <code>'shake'</code>       | The shake change event name. Must be 'shake'.       |
+| **`listenerFunc`** | <code>() =&gt; void</code> | Callback function invoked when the phone is shaken. |
 
 **Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
+
+**Since:** 1.0.0
 
 --------------------
 
@@ -53,9 +63,13 @@ addListener(eventName: 'shake', listenerFunc: () => void) => Promise<PluginListe
 getPluginVersion() => Promise<{ version: string; }>
 ```
 
-Get the native Capacitor plugin version
+Get the native Capacitor plugin version.
+
+Returns the current version of the native plugin implementation.
 
 **Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
+
+**Since:** 1.0.0
 
 --------------------
 
