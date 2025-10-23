@@ -11,7 +11,7 @@ import com.squareup.seismic.ShakeDetector;
 @CapacitorPlugin(name = "CapacitorShake")
 public class CapacitorShakePlugin extends Plugin implements ShakeDetector.Listener {
 
-    private final String PLUGIN_VERSION = "";
+    private final String PLUGIN_VERSION = "7.2.0";
 
     @Override
     public void load() {
