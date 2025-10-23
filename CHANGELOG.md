@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.3](https://github.com/Cap-go/capacitor-shake/compare/7.2.2...7.2.3) (2025-10-23)
+
+
+### Bug Fixes
+
+* add missing imports for PluginCall and PluginMethod ([88dec6e](https://github.com/Cap-go/capacitor-shake/commit/88dec6e23cfff247104084e9d83b17ae950ab9c5))
+
 ## [7.2.2](https://github.com/Cap-go/capacitor-shake/compare/7.2.1...7.2.2) (2025-10-23)
 
 
