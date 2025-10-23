@@ -23,6 +23,7 @@ npx cap sync
 <docgen-index>
 
 * [`addListener('shake', ...)`](#addlistenershake-)
+* [`getPluginVersion()`](#getpluginversion)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -42,6 +43,19 @@ addListener(eventName: 'shake', listenerFunc: () => void) => Promise<PluginListe
 | **`listenerFunc`** | <code>() =&gt; void</code> |
 
 **Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
+
+--------------------
+
+
+### getPluginVersion()
+
+```typescript
+getPluginVersion() => Promise<{ version: string; }>
+```
+
+Get the native Capacitor plugin version
+
+**Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
 
 --------------------
 
