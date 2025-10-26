@@ -23,8 +23,7 @@ const actions = [
               }
               state.shakeEvents.unshift({ time: new Date().toISOString() });
               if (state.shakeEvents.length > 20) state.shakeEvents.pop();
-              output.textContent = state.shakeEvents.map((event, index) => \`${index + 1}. ${event.time}\`).join('
-');
+              output.textContent = state.shakeEvents.map((event, index) => `${index + 1}. ${event.time}`).join('\n');
             });
             return 'Shake listener attached. Shake the device to generate events.';
               },
