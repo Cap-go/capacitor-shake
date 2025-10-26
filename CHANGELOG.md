@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.4](https://github.com/Cap-go/capacitor-shake/compare/7.2.3...7.2.4) (2025-10-26)
+
+
+### Bug Fixes
+
+* gitignore ([479a188](https://github.com/Cap-go/capacitor-shake/commit/479a1884b51a7d322f89ef9d035cb9976c1f22e9))
+
 ## [7.2.3](https://github.com/Cap-go/capacitor-shake/compare/7.2.2...7.2.3) (2025-10-23)
 
 
