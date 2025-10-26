@@ -11,6 +11,10 @@
 
 Detect shake gesture in device
 
+## Documentation
+
+The most complete doc is available here: https://capgo.app/docs/plugins/shake/
+
 ## Install
 
 ```bash
