@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.10](https://github.com/Cap-go/capacitor-shake/compare/7.2.9...7.2.10) (2025-10-27)
+
+
+### Bug Fixes
+
+* CI/CD config ([505fc26](https://github.com/Cap-go/capacitor-shake/commit/505fc2639eba36b0a11737671ec309a39e7b140c))
+* update github action ([61ae47b](https://github.com/Cap-go/capacitor-shake/commit/61ae47b8548215b3fde1994388ffb8395c1e4a59))
+
 ## [7.2.9](https://github.com/Cap-go/capacitor-shake/compare/7.2.8...7.2.9) (2025-10-27)
 
 ## [7.2.8](https://github.com/Cap-go/capacitor-shake/compare/7.2.7...7.2.8) (2025-10-27)
