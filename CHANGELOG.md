@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.2.13](https://github.com/Cap-go/capacitor-shake/compare/7.2.12...7.2.13) (2025-10-30)
+
+
+### Bug Fixes
+
+* pluginVersion lint issue ([338aa71](https://github.com/Cap-go/capacitor-shake/commit/338aa71fb9dbf6b3faee3b34ebd63272a86a78c4))
+
 ## [7.2.12](https://github.com/Cap-go/capacitor-shake/compare/7.2.11...7.2.12) (2025-10-29)
 
 ## [7.2.11](https://github.com/Cap-go/capacitor-shake/compare/7.2.10...7.2.11) (2025-10-29)
