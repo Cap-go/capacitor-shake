@@ -20,7 +20,7 @@ extension UIWindow {
  */
 @objc(CapacitorShakePlugin)
 public class CapacitorShakePlugin: CAPPlugin, CAPBridgedPlugin {
-    private let PLUGIN_VERSION: String = "7.2.12"
+    private let pluginVersion: String = "7.2.12"
     public let identifier = "CapacitorShakePlugin"
     public let jsName = "CapacitorShake"
     public let pluginMethods: [CAPPluginMethod] = [
@@ -45,7 +45,7 @@ public class CapacitorShakePlugin: CAPPlugin, CAPBridgedPlugin {
     }
 
     @objc func getPluginVersion(_ call: CAPPluginCall) {
-        call.resolve(["version": self.PLUGIN_VERSION])
+        call.resolve(["version": self.pluginVersion])
     }
 
 }
