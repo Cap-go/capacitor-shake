@@ -6,43 +6,46 @@ import { CapacitorShake } from '@capgo/capacitor-shake';
 
 const plugin = CapacitorShake;
 const state = {};
-state.shakeListener = undefined; state.shakeEvents = [];
+state.shakeListener = undefined;
+state.shakeEvents = [];
 
 const actions = [
-{
-              id: 'start-listener',
-              label: 'Start shake listener',
-              description: 'Registers a shake listener and logs events below.',
-              inputs: [],
-              run: async (values) => {
-                if (state.shakeListener) {
-              await state.shakeListener.remove();
-            }
-            state.shakeEvents = [];
-            state.shakeListener = await plugin.addListener('shake', () => {
-              if (!Array.isArray(state.shakeEvents)) {
-                state.shakeEvents = [];
-              }
-              state.shakeEvents.unshift({ time: new Date().toISOString() });
-              if (state.shakeEvents.length > 20) state.shakeEvents.pop();
-              output.textContent = state.shakeEvents.map((event, index) => `${index + 1}. ${event.time}`).join('\n');
-            });
-            return 'Shake listener attached. Shake the device to generate events.';
-              },
-            },
-{
-              id: 'stop-listener',
-              label: 'Stop shake listener',
-              description: 'Removes the active shake listener.',
-              inputs: [],
-              run: async (values) => {
-                if (state.shakeListener) {
-  await state.shakeListener.remove();
-  state.shakeListener = undefined;
-}
-return 'Shake listener removed.';
-              },
-            }
+  {
+    id: 'start-listener',
+    label: 'Start shake listener',
+    description: 'Registers a shake listener and logs events below.',
+    inputs: [],
+    run: async (values) => {
+      if (state.shakeListener) {
+        await state.shakeListener.remove();
+      }
+      state.shakeEvents = [];
+      state.shakeListener = await plugin.addListener('shake', () => {
+        if (!Array.isArray(state.shakeEvents)) {
+          state.shakeEvents = [];
+        }
+        state.shakeEvents.unshift({ time: new Date().toISOString() });
+        if (state.shakeEvents.length > 20) state.shakeEvents.pop();
+        output.textContent = state.shakeEvents
+          .map((event, index) => `${index + 1}. ${event.time}`)
+          .join('\n');
+      });
+      return 'Shake listener attached. Shake the device to generate events.';
+    },
+  },
+  {
+    id: 'stop-listener',
+    label: 'Stop shake listener',
+    description: 'Removes the active shake listener.',
+    inputs: [],
+    run: async (values) => {
+      if (state.shakeListener) {
+        await state.shakeListener.remove();
+        state.shakeListener = undefined;
+      }
+      return 'Shake listener removed.';
+    },
+  },
 ];
 
 const actionSelect = document.getElementById('action-select');
