@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.shake',
-  appName: 'Shake Example',
+  appName: '@capgo/capacitor-shake',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
