@@ -1,4 +1,5 @@
-// Shake detection algorithm ported from com.squareup:seismic 1.0.3 (Square, Apache 2.0).
+// Copyright 2010 Square, Inc.
+// Shake detection algorithm ported from com.squareup:seismic 1.0.3 (Apache License 2.0).
 package ee.forgr.capacitor.shake;
 
 import android.hardware.Sensor;
@@ -81,7 +82,8 @@ public class ShakeDetector implements SensorEventListener {
         float az = event.values[2];
 
         final double magnitudeSquared = ax * ax + ay * ay + az * az;
-        return magnitudeSquared > accelerationThreshold * accelerationThreshold;
+        final long thresholdSquared = (long) accelerationThreshold * accelerationThreshold;
+        return magnitudeSquared > thresholdSquared;
     }
 
     public void setSensitivity(int accelerationThreshold) {
