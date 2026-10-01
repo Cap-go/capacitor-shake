@@ -8,7 +8,6 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
-import com.squareup.seismic.ShakeDetector;
 
 @CapacitorPlugin(name = "CapacitorShake")
 public class CapacitorShakePlugin extends Plugin implements ShakeDetector.Listener {
