@@ -1,15 +1,27 @@
 # @capgo/capacitor-shake
 
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-shake" alt="Capgo - Instant updates for Capacitor" /></a>
+Detect when users shake their phone in your Capacitor app, to open feedback, undo an action or reveal a debug menu.
+
+<a href="https://capgo.app/?ref=plugin_shake"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-shake" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_shake"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_shake"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_shake">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_shake">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-shake/main/assets/github-social-preview.png" alt="@capgo/capacitor-shake for Capacitor apps" width="300" />
+</p>
 
+## Key features
 
-Detect shake gesture in device
+- **Shake event**: `addListener('shake', ...)` calls your code on each shake.
+- **iOS**: uses the system shake motion event.
+- **Android**: accelerometer-based detection with a tuned threshold.
+- **Clean up**: remove the listener when you no longer need it.
+- **Platforms**: iOS and Android. Not available on web.
 
 ## Documentation
 
