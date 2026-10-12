@@ -12,7 +12,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "CapacitorShake")
 public class CapacitorShakePlugin extends Plugin implements ShakeDetector.Listener {
 
-    private final String pluginVersion = "8.0.49";
+    private final String pluginVersion = "8.0.50";
 
     @Override
     public void load() {
