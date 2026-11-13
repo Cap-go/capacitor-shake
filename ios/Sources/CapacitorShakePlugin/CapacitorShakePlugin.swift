@@ -20,7 +20,7 @@ extension UIWindow {
  */
 @objc(CapacitorShakePlugin)
 public class CapacitorShakePlugin: CAPPlugin, CAPBridgedPlugin {
-    private let pluginVersion: String = "8.0.57"
+    private let pluginVersion: String = "8.0.58"
     public let identifier = "CapacitorShakePlugin"
     public let jsName = "CapacitorShake"
     public let pluginMethods: [CAPPluginMethod] = [
